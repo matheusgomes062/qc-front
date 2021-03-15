@@ -1,5 +1,12 @@
 # qc-front
 
+## TODO
+[X] SASS
+[X] DYNAMIC FORM
+[X] REQUESTS
+[] LOADING
+[] VALIDATION
+[] TESTING
 ## Project setup
 ```
 yarn install

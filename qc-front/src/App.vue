@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <header>
+    <header class="header">
       <div>
         <span id="logo">Qualicorp</span>
       </div>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import FormWizard from '@/components/FormWizard.vue';
+import FormWizard from '@/components/formWizard/FormWizard.vue';
 
 export default {
   name: 'app',
@@ -22,3 +22,22 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+body {
+  font-family: $main-font;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
