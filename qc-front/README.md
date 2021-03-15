@@ -4,9 +4,9 @@
 - [X] SASS
 - [X] DYNAMIC FORM
 - [X] REQUESTS
-- [] LOADING
-- [] VALIDATION
-- [] TESTING
+- [ ] LOADING
+- [ ] VALIDATION
+- [ ] TESTING
 - 
 ## Project setup
 ```
